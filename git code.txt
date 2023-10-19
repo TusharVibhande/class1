@@ -1,0 +1,85 @@
+Dell@DESKTOP-3MFPFG9 MINGW64 /d/github/class1 (Tushar)
+$ .code
+bash: .code: command not found
+
+Dell@DESKTOP-3MFPFG9 MINGW64 /d/github/class1 (Tushar)
+$ .code
+bash: .code: command not found
+
+Dell@DESKTOP-3MFPFG9 MINGW64 /d/github/class1 (Tushar)
+$ git add 'hello.java'       ///file ko add karne ke liye java se 
+
+Dell@DESKTOP-3MFPFG9 MINGW64 /d/github/class1 (Tushar)
+$ git status   ////status dekne ke liye
+On branch Tushar
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   hello.java
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Screenshot 2023-10-19 121847.png
+
+
+Dell@DESKTOP-3MFPFG9 MINGW64 /d/github/class1 (Tushar)
+$ git checkout 'Tushar'     ////name change karne ke liye '   '
+Already on 'Tushar'
+M       README.md
+A       hello.java
+
+Dell@DESKTOP-3MFPFG9 MINGW64 /d/github/class1 (Tushar)
+$ git status
+On branch Tushar
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   hello.java
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Screenshot 2023-10-19 121847.png
+        demo.html
+
+
+Dell@DESKTOP-3MFPFG9 MINGW64 /d/github/class1 (Tushar)
+$ git add 'demo.html'     ////file add kari
+
+Dell@DESKTOP-3MFPFG9 MINGW64 /d/github/class1 (Tushar)
+$ git status
+On branch Tushar
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   demo.html
+        new file:   hello.java
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Screenshot 2023-10-19 121847.png
+
+
+Dell@DESKTOP-3MFPFG9 MINGW64 /d/github/class1 (Tushar)
+$ git checkout 'Tushar'
+Already on 'Tushar'
+M       README.md
+A       demo.html
+A       hello.java
+
+Dell@DESKTOP-3MFPFG9 MINGW64 /d/github/class1 (Tushar)
+$ ^C
+
+Dell@DESKTOP-3MFPFG9 MINGW64 /d/github/class1 (Tushar)
+$ git commit ////for save
