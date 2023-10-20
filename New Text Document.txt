@@ -1,0 +1,34 @@
+git branch : this cmd is used to check all branchs.
+
+tyoes of branch 
+local 
+remote 
+
+Dell@DESKTOP-3MFPFG9 MINGW64 /d/github/class1 (main)
+$  git branch
+  FrontEnd
+  Tushar
+* main
+git branch -r : this cmd is use for show remote branches
+
+Dell@DESKTOP-3MFPFG9 MINGW64 /d/github/class1 (main)
+$ git branch -r
+  origin/HEAD -> origin/main
+  origin/main
+
+data publish hua he git hub pe
+
+note:
+remote branch means , branches data push .
+local branches means, only  one working directory or staging level
+
+
+
+git branch -a  : using this cmd we can update about branches as local or remote.    (-a : stand  for all)
+Dell@DESKTOP-3MFPFG9 MINGW64 /d/github/class1 (main)
+$ git branch -a
+  FrontEnd
+  Tushar
+* main
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/main
