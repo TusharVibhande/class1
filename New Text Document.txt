@@ -32,3 +32,39 @@ $ git branch -a
 * main
   remotes/origin/HEAD -> origin/main
   remotes/origin/main
+
+
+
+how we can create folder in repositary
+
+
+
+for image upload on git
+Dell@DESKTOP-3MFPFG9 MINGW64 /d/github/class1 (main)
+$ git add -A
+
+Dell@DESKTOP-3MFPFG9 MINGW64 /d/github/class1 (main)
+$ git commit -m
+error: switch `m' requires a value
+
+Dell@DESKTOP-3MFPFG9 MINGW64 /d/github/class1 (main)
+$ git commit -m 'image upload'
+[main 1a0ae74] image upload
+ 5 files changed, 216 insertions(+), 1 deletion(-)
+ create mode 100644 FIle1.html
+ create mode 100644 New Text Document.txt
+ create mode 100644 file2.html
+ create mode 100644 images/images.jpg
+
+Dell@DESKTOP-3MFPFG9 MINGW64 /d/github/class1 (main)
+$ git push
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (8/8), 198.36 KiB | 7.35 MiB/s, done.
+Total 8 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/TusharVibhande/class1.git
+   66ebb0f..1a0ae74  main -> main
+
+
